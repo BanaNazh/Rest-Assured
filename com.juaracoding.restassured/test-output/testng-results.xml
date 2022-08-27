@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-28T00:58:40 WIB" name="Default suite" finished-at="2022-08-28T00:58:46 WIB" duration-ms="6049">
+    <groups>
+    </groups>
+    <test started-at="2022-08-28T00:58:40 WIB" name="Default test" finished-at="2022-08-28T00:58:46 WIB" duration-ms="6049">
+      <class name="com.juaracoding.restassured.TestTwentyOne">
+        <test-method signature="testGet()[pri:0, instance:com.juaracoding.restassured.TestTwentyOne@4313f5bc]" started-at="2022-08-28T00:58:40 WIB" name="testGet" finished-at="2022-08-28T00:58:43 WIB" duration-ms="3616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testPost()[pri:0, instance:com.juaracoding.restassured.TestTwentyOne@4313f5bc]" started-at="2022-08-28T00:58:43 WIB" name="testPost" finished-at="2022-08-28T00:58:46 WIB" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- com.juaracoding.restassured.TestTwentyOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
