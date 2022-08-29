@@ -11,7 +11,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class TestTwentyOne {
-	String endpoint = "https://mern-backend-8881.herokuapp.com/products/62b3f69f66f12cc8cf17fcef";
+	String endpoint = "https://mern-backend-8881.herokuapp.com/products";
 
 	@Test
 	public void testGet() {
@@ -30,6 +30,7 @@ public class TestTwentyOne {
 	public void testPost() {
 		JSONObject request = new JSONObject();
 		request.put("name", "Bana");
+		request.put("category", "Test 5");
 		request.put("price", "9999");
 		System.out.println(request.toJSONString());
 
@@ -41,7 +42,7 @@ public class TestTwentyOne {
 		.when()
 		.post("https://mern-backend-8881.herokuapp.com/products")
 		.then()
-		.statusCode(200)
+		.statusCode(201)
 		.log()
 		.all();
 	}
